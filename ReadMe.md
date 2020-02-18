@@ -144,7 +144,7 @@ node {
 Now to declare a changable stage target variable
 `def DEPLOY_TARGET = 'dev'`
 
-Our Codegate Stage
+Codegate Stage
 ```
  stage('$nameOfStage'){
         git credentialsId: GIT_CREDENTIALS_ID, url: GIT_URL //this grabs our Jenkins Credentials to log into bitbucket
